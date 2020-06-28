@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web-page</title>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,800italic,800,700italic,700,600italic,600,400italic,400|Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/jquery.mCustomScrollbar.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <a class="button" href="#basicModal17" data-toggle="modal">Ваши билеты</a>
+        <a class="button" href="#basicModal16" data-toggle="modal">Способ оплаты</a>
+        <a class="button" href="#basicModal" data-toggle="modal">Подтверждение</a>
+        <a class="button" href="#basicModal3" data-toggle="modal">Оплата</a>
+        <a class="button" href="#basicModal4" data-toggle="modal">Баланс</a>
+        <a class="button" href="#basicModal5" data-toggle="modal">Способ оплаты</a>
+        <a class="button" href="#basicModal8" data-toggle="modal">Обратная связь</a>
+        <a class="button" href="#basicModal9" data-toggle="modal">Авторизуйтесь</a>
+        <a class="button" href="#basicModal11" data-toggle="modal">Заявка принята</a>
+        <a class="button" href="#basicModal14" data-toggle="modal">В разработке</a>
+        <a class="button" href="#basicModal15" data-toggle="modal">Пополнение</a>
+    </div>
+    <div class="modal fade black-modal" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">Подтверждение</h3>
+                </div>
+                <div class="modal-body">
+                    <!-- modal body -->
+                    <div class="enter-site">
+                        <img src="img/ava-n.png" class="img-responsive">
+                        <h4>
+                            <span class="hidden-xs"></span>
+                            Имя Фамилия
+                            <span class="hidden-xs"></span>
+                        </h4>
+                        <h5 class="bold-xs">Дата регистрации 02.11.2016</h5>
+                        <ul class="list-unstyled list-inline social" style="z-index:9999">
+                            <li>
+                                <a href="" class="icon-soc-big i1 pulse"></a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-soc-big i2 pulse"></a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-soc-big i3 pulse"></a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-soc-big i4 pulse"></a>
+                            </li>
+                            <br>
+                            <li>
+                                <a href="" class="icon-soc-big i5 pulse"></a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-soc-big i6 pulse"></a>
+                            </li>
+                            <li>
+                                <a href="" class="icon-soc-big i7 pulse"></a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary">Дать в аренду</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="basicModal2" tabindex="-1" role="dialog" aria-labelledby="basicModal2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">Выберите способ оплаты</h3>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary wt-90a">С баланса</button>
+                    <button type="button" class="btn btn-primary cam-modal wt-90a">Через Camelotpay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal" id="basicModal3" tabindex="-1" role="dialog" aria-labelledby="basicModal3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">Для активации кабинета необходимо оплатить</h3>
+                    <img src="img/cfr.png" class="img-responsive modal-img-area">
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary">Оплатить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal4" tabindex="-1" role="dialog" aria-labelledby="basicModal4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">
+                        Пополните баланс
+                        <br class="brr">
+                        или возьмите мили
+                        <br class="brr">на бирже в аренду</h3>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary wt-90a">Взять в аренду</button>
+                    <button type="button" class="btn btn-primary wt-90a">Дать в аренду</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal5" tabindex="-1" role="dialog" aria-labelledby="basicModal5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">
+                        Выберите
+                        <br class="brr">способ оплаты</h3>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary wt-90a">С баланса</button>
+                    <button type="button" class="btn btn-primary wt-90a">Через camelotpay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal6" tabindex="-1" role="dialog" aria-labelledby="basicModal6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">
+                        Спасибо,
+                        <br class="brr">ваша заявка принята!</h3>
+                    <img src="img/zv.png" class="img-responsive modal-img-area">
+                    <p class="modal-p-area">
+                        В ближайшее
+                        <br>время наш менеджер</br>
+                        свяжется с Вами
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal7" tabindex="-1" role="dialog" aria-labelledby="basicModal7" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">
+                        Раздел
+                        <br>в разработке</h3>
+                    <img src="img/razr.png" class="img-responsive modal-img-area">
+                    <p class="modal-p-area">
+                        <a href="#">На главную</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal8" tabindex="-1" role="dialog" aria-labelledby="basicModal8" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">обратная связь</h3>
+                    <img src="img/zv.png" class="img-responsive modal-img-area">
+                    <form>
+                        <div class="form-sect">
+                            <label>Имя</label>
+                            <input class="form-control"></div>
+                        <div class="form-sect">
+                            <label>Е - mail</label>
+                            <input class="form-control"></div>
+                    </form>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary wt-90a">Отправить заявку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal9" tabindex="-1" role="dialog" aria-labelledby="basicModal9" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">
+                        авторизуйтесь
+                        <br>для входа</h3>
+                    <img src="img/avt.png" class="img-responsive modal-img-area">
+                </div>
+                <p class="modal-p-area">
+                    <a href="#">Вход</a>
+                    <span>|</span>
+                    <a href="#">Регистрация</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal10" tabindex="-1" role="dialog" aria-labelledby="basicModal10" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">
+                        авторизуйтесь
+                        <br>для входа</h3>
+                    <img src="img/avt.png" class="img-responsive modal-img-area">
+                </div>
+                <p class="modal-p-area">Войти через соцсети</p>
+                <ul class="list-unstyled list-inline social" style="z-index:9999">
+                    <li>
+                        <a href="" class="icon-soc-big i1 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i2 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i3 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i4 pulse"></a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" class="icon-soc-big i5 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i6 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i7 pulse"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal11" tabindex="-1" role="dialog" aria-labelledby="basicModal11" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">
+                        Спасибо, ваша
+                        <br class="brr">заявка принята!</h3>
+                    <img src="img/zay.png" class="img-responsive modal-img-area">
+                    <p class="modal-p-area">
+                        В ближайшее
+                        <br>время наш менеджер</br>
+                        свяжется с Вами
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal12" tabindex="-1" role="dialog" aria-labelledby="basicModal12" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">Вы еще не авторизированы</h3>
+                </div>
+                <p class="modal-p-area">Войти через соцсети</p>
+                <ul class="list-unstyled list-inline social" style="z-index:9999">
+                    <li>
+                        <a href="" class="icon-soc-big i1 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i2 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i3 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i4 pulse"></a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" class="icon-soc-big i5 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i6 pulse"></a>
+                    </li>
+                    <li>
+                        <a href="" class="icon-soc-big i7 pulse"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal13" tabindex="-1" role="dialog" aria-labelledby="basicModal13" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">обратная связь</h3>
+                    <form>
+                        <div class="form-sect">
+                            <label>Имя</label>
+                            <input class="form-control"></div>
+                        <div class="form-sect">
+                            <label>Е - mail</label>
+                            <input class="form-control"></div>
+                    </form>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary wt-90a">Отправить заявку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal14" tabindex="-1" role="dialog" aria-labelledby="basicModal14" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">
+                        Раздел
+                        <br>в разработке</h3>
+                    <img src="img/razr2.png" class="img-responsive modal-img-area">
+                    <p class="modal-p-area">
+                        <a href="#">На главную</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade black-modal lines-modal2" id="basicModal15" tabindex="-1" role="dialog" aria-labelledby="basicModal15" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">Пожалуйста, укажите сумму, на которую хотите пополнить баланс</h3>
+                    <form>
+                        <style>
+                            .nt-label{
+    text-align: center;
+  }
+  
+  .form-sect.nt-label {
+    margin-top: 63px;
+    margin-bottom: -18px;
+}
+</style>
+                        <div class="form-sect nt-label">
+                            <input class="form-control" placeholder="100"></div>
+                    </form>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary wt-90a">Оплатить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="basicModal16" tabindex="-1" role="dialog" aria-labelledby="basicModal16" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">Выберите способ оплаты</h3>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary wt-90a">С баланса</button>
+                    <button type="button" class="btn btn-primary cam-modal wt-90a">Через Camelotpay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="basicModal17" tabindex="-1" role="dialog" aria-labelledby="basicModal17" aria-hidden="true">
+        <!-- class modal and fade -->
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- modal header -->
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 class="modal-title">Ваши билеты</h3>
+                </div>
+                <div class="modal-body">
+                    <!-- modal body -->
+                    <div class="tbl-area">
+                        <div class="top-dw">
+                            <h1>москва - тбилиси</h1>
+                            <h3>01.01 / 2016</h3>
+                        </div>
+                        <div class="middle-dw">
+                            <div class="tc-img-area">
+                                <img src="img/s7.png">
+                                <h5>«Georgian Airways» – 927</h5>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="tre-md">
+                                <p><span class="tmm">20:50</span> <span class="vnv">Москва, «Внуково» – A</span></p>
+                            </div>
+                            <div class="tre-md">
+                                <p><span class="tmm">00:20</span> <span class="vnv">Тбилиси, «International»</span><span class="prb-area">прибытие 19.01/2016</span></p>
+                            </div>
+                            <div class="price-ntt">
+                                5 428 rub <span>1 взрослый</span>
+                            </div>
+                        </div>
+                        <div class="tmp-area">
+                            <span class="npos"><span class="spn-s"></span> в пути 2 ч 30 мин</span>
+                            <span class="npos2"><span class="spn-s2"></span>беспл. багаж 25 кг</span>
+                            <span class="npos3"><span class="spn-s3"></span>Boeing 737</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <!-- modal footer -->
+                </div>
+            </div> <!-- / .modal-content -->
+            <div class="modal-dialog modal-md dott-tic">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- modal header -->
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- modal body -->
+                        <div class="tbl-area">
+                            <div class="top-dw">
+                                <h1>москва - тбилиси</h1>
+                                <h3>01.01 / 2016</h3>
+                            </div>
+                            <div class="middle-dw">
+                                <div class="tc-img-area">
+                                    <img src="img/s7.png">
+                                    <h5>«Georgian Airways» – 927</h5>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="tre-md">
+                                    <p><span class="tmm">20:50</span> <span class="vnv">Москва, «Внуково» – A</span></p>
+                                </div>
+                                <div class="tre-md">
+                                    <p><span class="tmm">00:20</span> <span class="vnv">Тбилиси, «International»</span><span class="prb-area">прибытие 19.01/2016</span></p>
+                                </div>
+                                <div class="price-ntt">
+                                    5 428 rub <span>1 взрослый</span>
+                                </div>
+                            </div>
+                            <div class="tmp-area">
+                                <span class="npos"><span class="spn-s"></span> в пути 2 ч 30 мин</span>
+                                <span class="npos2"><span class="spn-s2"></span>беспл. багаж 25 кг</span>
+                                <span class="npos3"><span class="spn-s3"></span>Boeing 737</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- modal footer -->
+                        <button type="button" class="btn btn-primary">Оформить заявку</button>
+                        <a class="brj-area" href="#">Взять на бирже</a>
+                    </div>
+                </div> <!-- / .modal-content -->
+            </div>
+        </div> <!-- / .modal-dialog -->
+    </div><!-- / .modal -->
+    <script>
+    /**
+     * Vertically center Bootstrap 3 modals so they aren't always stuck at the top
+     */
+    $(function() {
+        function reposition() {
+            var modal = $(this),
+                dialog = modal.find('.modal-dialog');
+            modal.css('display', 'block');
+
+            // Dividing by two centers the modal exactly, but dividing by three 
+            // or four works better for larger screens.
+            dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 2));
+        }
+        // Reposition when a modal is shown
+        $('.modal').on('show.bs.modal', reposition);
+        // Reposition when the window is resized
+        $(window).on('resize', function() {
+            $('.modal:visible').each(reposition);
+        });
+    });
+    </script>
+</body>
+
+</html>
